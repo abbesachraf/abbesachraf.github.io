@@ -8,7 +8,7 @@ description: >-
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # If your site is hosted on a subpath, e.g., /blog
-url: "https://abbesachraf.github.io/colonneil.github.io" # Add the full base URL for your site
+url: "https://abbesachraf.github.io/abbesachraf.github.io" # Add the full base URL for your site
 twitter_username: jekyllrb
 github_username:  abbesachraf
 
