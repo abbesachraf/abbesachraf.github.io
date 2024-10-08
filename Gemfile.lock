@@ -290,14 +290,11 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-remote-theme
   json (= 2.7.2)
-  logger (= 1.6.1)
-  minimal-mistakes-jekyll
-  minitest (= 5.25.1)
+  minimal-mistakes-jekyll (= 4.26.2)
   nokogiri
   rexml (= 3.3.8)
   tzinfo-data
-  uri (= 0.13.1)
-  webrick (~> 1.8)
+  webrick (= 1.8.2)
 
 BUNDLED WITH
    2.5.21
