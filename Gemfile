@@ -15,7 +15,7 @@ gem "faraday-net_http", "3.3.0"  # Faraday adapter
 gem "activesupport", "7.2.1"  # ActiveSupport components
 gem "json", "2.7.2"      # JSON parsing
 gem "minimal-mistakes-jekyll", "4.26.2"  # Jekyll theme
-gem 'fiddle'
+# gem 'fiddle'
 
 
 # GitHub Pages plugins
