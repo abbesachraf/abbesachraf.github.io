@@ -5,25 +5,24 @@ gem "jekyll-remote-theme"
 gem "jekyll-include-cache"
 gem "jekyll-paginate"
 gem "nokogiri"
-gem "webrick", "1.8.2"  # Ensure compatibility with Jekyll
-gem "i18n", "1.14.6"     # Internationalization
-gem "rexml", "3.3.8"     # XML parsing
-gem "concurrent-ruby", "1.3.4"  # Threading support
-gem "faraday", "2.12.0"  # HTTP client
-gem 'faraday-retry'
-gem "faraday-net_http", "3.3.0"  # Faraday adapter
-gem "activesupport", "7.2.1"  # ActiveSupport components
-gem "json", "2.7.2"      # JSON parsing
-gem "minimal-mistakes-jekyll", "4.26.2"  # Jekyll theme
-# gem 'fiddle'
-
+gem "webrick", "~> 1.8"  # Use ~> for flexibility in minor updates
+gem "i18n", "~> 1.14"     # Use ~> for flexibility in minor updates
+gem "rexml", "~> 3.3"     # Use ~> for flexibility in minor updates
+gem "concurrent-ruby", "~> 1.3"  # Use ~> for flexibility in minor updates
+gem "faraday", "~> 2.12"  # Use ~> for flexibility in minor updates
+gem "faraday-retry"
+gem "faraday-net_http", "~> 3.3"  # Use ~> for flexibility in minor updates
+gem "activesupport", "~> 7.2"  # Use ~> for flexibility in minor updates
+gem "json", "~> 2.7"      # Use ~> for flexibility in minor updates
+gem "minimal-mistakes-jekyll", "~> 4.26"  # Use ~> for flexibility in minor updates
+gem 'font-awesome-sass'
 
 # GitHub Pages plugins
 gem "github-pages", group: :jekyll_plugins  # For GitHub Pages compatibility
 
 # Other plugins
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"  # RSS feed support
+  gem "jekyll-feed", "~> 0.6"  # Ensure you are using a compatible version
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

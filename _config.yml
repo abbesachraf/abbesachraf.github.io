@@ -1,17 +1,15 @@
 title: "Colonneil Blog"
 name: "Colonneil"
 email: abbesashraf@gmail.com
-url: "abbesachraf.github.io"
+url: "https://abbesachraf.github.io"
 repository: "abbesachraf.github.io/abbesachraf.github.io"
 
 twitter_username: colonneila
-github_username:  abbesachraf
+github_username: abbesachraf
 
 # Build settings
-# theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: dark
-
 
 # Plugins
 plugins:
@@ -23,14 +21,12 @@ include:
   - _pages
   - assets
   - index.html
+
 exclude:
   - TODO.md
   - README.md
   - "*.org"
   - "*ltximg*"
-
-# Exclude from processing.
-exclude:
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
@@ -42,19 +38,16 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-
 markdown: kramdown
 
-
 author:
-  name   : "Achraf Abbes"
-  avatar : "/assets/images/headshot.gif"
-  bio    : "I’m passionate about web development, cybersecurity, and solving complex technical challenges. I enjoy exploring cutting-edge technologies, participating in Capture The Flag (CTF) competitions, and discovering new vulnerabilities through bug bounty hunting."
+  name: "Achraf Abbes"
+  avatar: "/assets/images/headshot.gif"
+  bio: "I’m passionate about web development, cybersecurity, and solving complex technical challenges. I enjoy exploring cutting-edge technologies, participating in Capture The Flag (CTF) competitions, and discovering new vulnerabilities through bug bounty hunting."
   location: "Tunisia, TN"
-  github : abbesachraf
+  github: abbesachraf
   linkedin: abbesachraf
-  email  : abbesashraf@gmail.com
-
+  email: abbesashraf@gmail.com
 
 comments:
   provider: "disqus"
@@ -71,7 +64,6 @@ paginate_path: /page:num/
 
 # default YAML front matter
 defaults:
-  # all
   - scope:
       path: ""
     values:
@@ -81,7 +73,6 @@ defaults:
       class: wide
       title: " "
       title_separator: "|"
-  # posts
   - scope:
       type: posts
     values:
@@ -89,7 +80,6 @@ defaults:
       toc_label: "Contents"
       read_time: false
       comments: true
-  # portfolio
   - scope:
       path: ""
       type: portfolio
