@@ -1,26 +1,33 @@
-# Welcome to Jekyll!
+title: "Colonneil Blog"
+name: "Colonneil"
+email: abbesashraf@gmail.com
+url: "abbesachraf.github.io"
+repository: "abbesachraf.github.io/abbesachraf.github.io"
 
-# Site settings
-title: Your awesome title
-email: your-email@example.com
-description: >- 
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # If your site is hosted on a subpath, e.g., /blog
-url: "https://abbesachraf.github.io/abbesachraf.github.io" # Add the full base URL for your site
-twitter_username: jekyllrb
+twitter_username: colonneila
 github_username:  abbesachraf
 
 # Build settings
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: dark
+
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
+
+include:
+  - _pages
+  - assets
+  - index.html
+exclude:
+  - TODO.md
+  - README.md
+  - "*.org"
+  - "*ltximg*"
 
 # Exclude from processing.
 exclude:
@@ -34,3 +41,65 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+
+markdown: kramdown
+
+
+author:
+  name   : "Achraf Abbes"
+  avatar : "/assets/images/headshot.gif"
+  bio    : "I’m passionate about web development, cybersecurity, and solving complex technical challenges. I enjoy exploring cutting-edge technologies, participating in Capture The Flag (CTF) competitions, and discovering new vulnerabilities through bug bounty hunting."
+  location: "Tunisia, TN"
+  github : abbesachraf
+  linkedin: abbesachraf
+  email  : abbesashraf@gmail.com
+
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "pwills-com"
+
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "UA-116208936-1"
+
+paginate: 10 # number of posts to show
+paginate_path: /page:num/
+
+# default YAML front matter
+defaults:
+  # all
+  - scope:
+      path: ""
+    values:
+      layout: single
+      mathjax: true
+      author_profile: true
+      class: wide
+      title: " "
+      title_separator: "|"
+  # posts
+  - scope:
+      type: posts
+    values:
+      toc: true
+      toc_label: "Contents"
+      read_time: false
+      comments: true
+  # portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      author_profile: false
+      excerpt: ""
+      sidebar:
+        nav: "portfolio"
+
+# collections
+collections:
+  portfolio:
+    output: true

@@ -17,13 +17,17 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 
 
-gem "jekyll-theme-minimal"
+# gem "jekyll-theme-minimal"
+
+gem "jekyll-remote-theme"
+gem "minimal-mistakes-jekyll"
+gem "jekyll-include-cache"
+gem "jekyll-paginate"
+gem "nokogiri"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-include-cache"
-  gem "jekyll-remote-theme"
-  gem "faraday-retry"
+  gem "jekyll-feed", "~> 0.6"
+
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
