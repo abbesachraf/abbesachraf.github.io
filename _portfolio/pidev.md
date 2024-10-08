@@ -2,7 +2,7 @@
 header:
   overlay_image: assets/images/portfolio/Pidev_dashboard.png.webp
   caption: "Photo credit: [**Marcus Spiske**](https://unsplash.com)"
-permalink: /portfolio/pidev/
+permalink: /portfolio/Pidev/
 date: 2024-10-08
 toc: true
 toc_label: "Contents"
