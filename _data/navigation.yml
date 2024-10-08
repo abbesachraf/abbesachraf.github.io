@@ -13,29 +13,23 @@ main:
 
 # sidebar for portfolio
 portfolio:
-  - title: "Projects"
+  - title: "Projects University"
     children:
-#      - title: "Machine Learning on AWS"
-#        url: /portfolio/coming/
-      - title: "Anomaly Detection in Social Networks"
-        url: /portfolio/social-networks/
-      - title: "NetComp: Python Network Comparison"
-        url: /portfolio/netcomp/
-      - title: "Automatic Genre Classification"
-        url: /portfolio/genre_cls/
+      - title: "University Full-Stack Project"
+        url: /portfolio/Pidev/
+      - title: "Security Operations Center Application"
+        url: /portfolio/SOC/
 
   - title: "Professional"
     children:
-      - title: "DeskAI"
-        url: /portfolio/deskai
-      - title: "Smart Climate Index"
-        url: /portfolio/sclm
+      - title: "Red Team Pentest TestSkills"
+        url: /portfolio/pwn_patch
+      - title: "Implementing Windows LAPS"
+        url: /portfolio/advancia
+      - title: "Medical Prediction Application"
+        url: /portfolio/Predicty
 
   - title: "Research"
     children:
-      - title: "Dynamic Anomaly Detection"
-        url: /portfolio/networks/
-      - title: "Statistics of Entanglement"
-        url: /portfolio/qm_stats/
-      - title: "Magnetic Waves and Noise"
-        url: /portfolio/waves/
+      - title: "Bug Bounty journey comming soon..."
+        url: /portfolio/soon/
