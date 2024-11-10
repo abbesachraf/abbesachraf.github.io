@@ -1,12 +1,11 @@
 ---
-title: "CI/CD Pipeline"
-excerpt: "CI/CD Pipeline for "tp foyer" Application"
-seo_title: "CI/CD Pipeline for "tp foyer" Application"
+header:
+  overlay_image: assets/images/DevSecOps/project_overview.png
+  caption: "Photo credit: [**Marcus Spiske**](https://unsplash.com)"
+permalink: /portfolio/DevSecOps/
 date: 2024-11-10
-categories: 
-- post
-tags: 
-- CI/CD
+toc: true
+toc_label: "Contents"
 ---
 # CI/CD Pipeline for "tp foyer" Application 🌐🚀
 

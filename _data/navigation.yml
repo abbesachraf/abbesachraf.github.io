@@ -19,6 +19,8 @@ portfolio:
         url: /portfolio/Pidev/
       - title: "Security Operations Center Application"
         url: /portfolio/SOC/
+      - title: "DevSecOps Project"
+        url: /portfolio/DevSecOps/
 
   - title: "Professional"
     children:
