@@ -6,6 +6,9 @@ permalink: /portfolio/Pidev/
 date: 2024-10-08
 toc: true
 toc_label: "Contents"
+excerpt: "Full-stack university project management application built with Symfony and Java CodenameOne."
+seo_title: "Pidev Full-Stack Project Management | Colonneil"
+seo_description: "University full-stack web application for project management built with Symfony backend and Java CodenameOne frontend, featuring task tracking and team collaboration."
 ---
 
 # Pidev: University Full-Stack Project

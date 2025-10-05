@@ -6,6 +6,9 @@ permalink: /portfolio/Predicty/
 date: 2024-10-08
 toc: true
 toc_label: "Contents"
+excerpt: "Machine learning medical prediction app with 80% accuracy for diabetes risk assessment using Django and Python."
+seo_title: "Predicty Medical Prediction Application | Colonneil"
+seo_description: "Django-based medical prediction application using machine learning for diagnostic predictions with 80% accuracy in diabetes risk assessment."
 ---
 
 # Predicty: Medical Prediction Application

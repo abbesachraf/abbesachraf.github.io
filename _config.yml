@@ -1,8 +1,9 @@
 title: "Colonneil Blog"
 name: "Colonneil"
 email: abbesashraf@gmail.com
-url: "https://abbesachraf.github.io"
-repository: "abbesachraf.github.io/abbesachraf.github.io"
+url: "https://colonneil.me"
+baseurl: ""
+repository: "abbesachraf/abbesachraf.github.io"
 
 twitter_username: colonneila
 github_username: abbesachraf

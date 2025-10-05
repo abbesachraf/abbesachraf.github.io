@@ -6,6 +6,9 @@ permalink: /portfolio/advancia/
 date: 2024-10-08
 toc: true
 toc_label: "Contents"
+excerpt: "Windows LAPS implementation achieving 90% reduction in password incidents and enhanced security."
+seo_title: "ADVANCIA Windows LAPS Security Project | Colonneil"
+seo_description: "Enterprise Windows LAPS implementation for centralized password management, achieving 90% reduction in forgotten password incidents and improved system security."
 ---
 
 # ADVANCIA Internship: Implementing Windows LAPS

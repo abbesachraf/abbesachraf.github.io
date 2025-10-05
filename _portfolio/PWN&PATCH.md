@@ -6,6 +6,9 @@ permalink: /portfolio/pwn_patch/
 date: 2024-10-08
 toc: true
 toc_label: "Contents"
+excerpt: "Red Team penetration testing environment with Active Directory lab for security assessments and recruitment."
+seo_title: "PWN&PATCH Red Team Pentest Project | Colonneil"
+seo_description: "Red Team penetration testing environment featuring Active Directory lab, vulnerability assessment tools, and realistic attack scenarios for cybersecurity evaluation."
 ---
 
 # PWN&PATCH Internship: Red Team Pentest Environment

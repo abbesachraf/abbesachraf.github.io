@@ -6,6 +6,9 @@ permalink: /portfolio/SOC/
 date: 2024-10-08
 toc: true
 toc_label: "Contents"
+excerpt: "Security Operations Center application for incident management, threat intelligence, and automated security response."
+seo_title: "SOC Security Operations Center Project | Colonneil"
+seo_description: "Full-featured Security Operations Center application with incident management, real-time monitoring, threat intelligence integration, and automated playbooks."
 ---
 
 # SOC Project: Security Operations Center Application

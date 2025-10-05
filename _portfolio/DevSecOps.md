@@ -6,6 +6,9 @@ permalink: /portfolio/DevSecOps/
 date: 2024-11-10
 toc: true
 toc_label: "Contents"
+excerpt: "Complete CI/CD pipeline with Jenkins, Docker, SonarQube, Nexus, Prometheus, and Grafana for automated, secure deployment."
+seo_title: "DevSecOps CI/CD Pipeline Project | Colonneil"
+seo_description: "Comprehensive DevSecOps project featuring automated CI/CD pipeline with Jenkins, Docker, SonarQube, Nexus, Prometheus and Grafana for secure application deployment."
 ---
 # CI/CD Pipeline for "tp foyer" Application 🌐🚀
 
@@ -122,16 +125,16 @@ pipeline {
         stage('Setup Environment - Start Containers') {
             steps {
                 script {
-                    def prometheusStatus = sh(script: 'docker inspect -f "{{.State.Running}}" 4fb9f43af657 || echo "false"', returnStdout: true).trim()
+                    def prometheusStatus = sh(script: 'docker inspect -f "{% raw %}{{.State.Running}}{% endraw %}" 4fb9f43af657 || echo "false"', returnStdout: true).trim()
                     if (prometheusStatus != "true") { sh 'docker start 4fb9f43af657'; echo 'Prometheus started.' }
                     
-                    def grafanaStatus = sh(script: 'docker inspect -f "{{.State.Running}}" ae9711f381a5 || echo "false"', returnStdout: true).trim()
+                    def grafanaStatus = sh(script: 'docker inspect -f "{% raw %}{{.State.Running}}{% endraw %}" ae9711f381a5 || echo "false"', returnStdout: true).trim()
                     if (grafanaStatus != "true") { sh 'docker start ae9711f381a5'; echo 'Grafana started.' }
                     
-                    def additionalContainerStatus = sh(script: 'docker inspect -f "{{.State.Running}}" bf03926b0c4b || echo "false"', returnStdout: true).trim()
+                    def additionalContainerStatus = sh(script: 'docker inspect -f "{% raw %}{{.State.Running}}{% endraw %}" bf03926b0c4b || echo "false"', returnStdout: true).trim()
                     if (additionalContainerStatus != "true") { sh 'docker start bf03926b0c4b'; echo 'Additional container started.' }
 
-                    def nexusStatus = sh(script: 'docker inspect -f "{{.State.Running}}" dfbc396469ec || echo "false"', returnStdout: true).trim()
+                    def nexusStatus = sh(script: 'docker inspect -f "{% raw %}{{.State.Running}}{% endraw %}" dfbc396469ec || echo "false"', returnStdout: true).trim()
                     if (nexusStatus != "true") { sh 'docker start dfbc396469ec'; echo 'Nexus container started.' }
 
                     def fail2banStatus = sh(script: 'systemctl is-active --quiet fail2ban && echo "running" || echo "not running"', returnStdout: true).trim()
